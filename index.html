@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Afacad:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Readly</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div id="logo">
+        <h1 class="logo">Readly</h1>
+        <p>By Jasper</p>
+      </div>
+      <div class="search-container">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search Book..."
+        />
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <i class="fa-solid fa-x close-icon hidden"></i>
+      </div>
+    </nav>
+
+    <!-- Search Results section -->
+    <section id="search" class="hidden">
+      <h2 class="book-title">Search Results...</h2>
+      <div class="book-grid" id="search-result"></div>
+    </section>
+
+    <!-- My Books Section -->
+    <section id="books">
+      <h2 class="book-title">My Books</h2>
+      <div class="book-grid" id="book-grid"></div>
+    </section>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2 class="book-title">Recommendations</h2>
+      <div class="book-grid" id="recommendation-grid">
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© Jasper</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

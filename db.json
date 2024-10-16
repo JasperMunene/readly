@@ -1,0 +1,109 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Her Dark Secret",
+      "author": "Michelle Love",
+      "status": "finished",
+      "genre": [
+        "Romance"
+      ],
+      "thumbnail": "http://books.google.com/books/content?id=Vr3oDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "2",
+      "title": "Contemporary Chinese Fiction by Su Tong and Yu Hua",
+      "author": "Hua Li",
+      "status": "finished",
+      "genre": [
+        "fiction"
+      ],
+      "thumbnail": "http://books.google.com/books/content?id=vPommpWbM7UC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "3",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "status": "finished",
+      "genre": [
+        "fiction",
+        "classic"
+      ],
+      "thumbnail": "http://books.google.com/books/content?id=PGR2AwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "4",
+      "title": "The Art of Romance",
+      "author": "Glory Chapman",
+      "status": "currently-reading",
+      "genre": [
+        "Romance"
+      ],
+      "thumbnail": "http://books.google.com/books/content?id=M9UOzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "5",
+      "title": "1984",
+      "author": "George Orwell",
+      "status": "want-to-read",
+      "genre": [
+        "fiction",
+        "dystopian"
+      ],
+      "thumbnail": "http://books.google.com/books/content?id=kotPYEqx7kMC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "6",
+      "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "author": "Robert C. Martin",
+      "status": "want-to-read",
+      "genre": [
+        "programming",
+        "technology"
+      ],
+      "thumbnail": "http://books.google.com/books/content?id=_i6bDeoCQzsC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "7",
+      "title": "Blank Comic Book - Draw Your Own Comics",
+      "author": "Blank Comic Book for Comics",
+      "status": "finished",
+      "genre": [
+        "Comic"
+      ],
+      "thumbnail": "http://books.google.com/books/content?id=rRTRxwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "8",
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "status": "currently reading",
+      "genre": [
+        "non-fiction",
+        "history"
+      ],
+      "thumbnail": "http://books.google.com/books/content?id=rtUoDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "9",
+      "title": "Thinking About Starting a Business?",
+      "author": "Gary Thomas",
+      "status": "want to read",
+      "genre": [
+        "business",
+        "entrepreneurship"
+      ],
+      "thumbnail": "http://books.google.com/books/content?id=QBuk4Ov_Fg0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "10",
+      "title": "Horror and the Horror Film",
+      "author": "Bruce F. Kawin",
+      "status": "finished",
+      "genre": [
+        "Horror"
+      ],
+      "thumbnail": "http://books.google.com/books/content?id=r88NdErN1pkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    }
+  ]
+}
