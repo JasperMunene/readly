@@ -189,7 +189,7 @@ function addBook(title, author, genre, thumbnail) {
     genre: [genre],
     thumbnail: thumbnail
   }
-  fetch('http://localhost:3000/books/', {
+  fetch('https://readly-kappa.vercel.app/books/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -209,7 +209,7 @@ function addBook(title, author, genre, thumbnail) {
 
 // DELETE BOOK FUNCTION
 function deleteBook(id, bookCard, title) {
-  fetch(`http://localhost:3000/books/${id}`, {
+  fetch(`https://readly-kappa.vercel.app/books/${id}`, {
     method: 'DELETE',
   })
     .then(response => {
@@ -229,7 +229,7 @@ function handleStatusChange(bookId, status) {
   const body = {
     status: status
   };
-  fetch(`http://localhost:3000/books/${bookId}`, {  // Use the book ID to target the right book
+  fetch(`https://readly-kappa.vercel.app/books/${bookId}`, {  // Use the book ID to target the right book
     method: 'PATCH',
     headers: {
       'Content-Type': 'application/json'
@@ -248,7 +248,7 @@ function handleStatusChange(bookId, status) {
 
 // RECOMMEND BOOKS BASED ON WHAT THE USER LOVES
 function findTopGenres() {
-  fetch('http://localhost:3000/books')
+  fetch('https://readly-kappa.vercel.app/books')
     .then(response => response.json())
     .then(books => {
       const genreCount = {};
