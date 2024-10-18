@@ -21,17 +21,6 @@
       "thumbnail": "http://books.google.com/books/content?id=vPommpWbM7UC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
-      "id": "3",
-      "title": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "status": "finished",
-      "genre": [
-        "fiction",
-        "classic"
-      ],
-      "thumbnail": "http://books.google.com/books/content?id=PGR2AwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-    },
-    {
       "id": "4",
       "title": "The Art of Romance",
       "author": "Glory Chapman",
@@ -104,6 +93,36 @@
         "Horror"
       ],
       "thumbnail": "http://books.google.com/books/content?id=r88NdErN1pkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "73bc",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "status": "",
+      "genre": [
+        "Fiction"
+      ],
+      "thumbnail": "http://books.google.com/books/content?id=EvqJCGeqKhsC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "244e",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "status": "currently-reading",
+      "genre": [
+        "Classic fiction"
+      ],
+      "thumbnail": "http://books.google.com/books/content?id=XeowGQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "id": "3bee",
+      "title": "Simple Gifts",
+      "author": "Judith McNaught, Jude Deveraux",
+      "status": "finished",
+      "genre": [
+        "Fiction"
+      ],
+      "thumbnail": "http://books.google.com/books/content?id=_y8kwT-j3sUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ]
 }
