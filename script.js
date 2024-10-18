@@ -1,6 +1,6 @@
 // FETCH BOOKS
 function fetchBooks() {
-  fetch('https://readly-git-main-jaspers-projects-9888bea6.vercel.app/books')
+  fetch('http://localhost:3000/books')
     .then(response => response.json())
     .then(books => {
       const bookGrid = document.getElementById('book-grid');
