@@ -1,6 +1,6 @@
 // FETCH BOOKS
 function fetchBooks() {
-  fetch('http://localhost:3000/books')
+  fetch('https://readly-kappa.vercel.app/books')
     .then(response => response.json())
     .then(books => {
       const bookGrid = document.getElementById('book-grid');
